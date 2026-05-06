@@ -32,7 +32,12 @@ nav {
   padding: 1.5rem 2rem;
   background-color: #fffdf5;
   border-bottom: 1px solid rgb(243, 240, 240);
-  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 100;
 }
 
 .nav-links ul {
