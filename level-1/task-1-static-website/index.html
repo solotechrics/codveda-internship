@@ -8,16 +8,74 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
       href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./CSS/media-query.css" />
+    <link rel="stylesheet" href="./CSS/animations.css">
   </head>
   <body>
     <nav>
-        
+      <div id="logo"><a href="#">Solorics</a></div>
+      <div class="nav-links">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="togglers">
+        <i class="fa-solid fa-bars"></i>
+        <i class="fa-solid fa-x"></i>
+      </div>
     </nav>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header>
+      <div class="container">
+        <span>Hi, I'm</span>
+        <h1>Oluwasegun Opeyemi Solomon</h1>
+        <p>
+          Freelance Web Developer & Data Professional based in Lagos, Nigeria
+        </p>
+        <div class="btn-navigation">
+          <a href="#" class="secondary-btn">View My Work</a>
+          <a href="#" class="primary-btn">Contact Me</a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="main-container">
+          <h2>What i do</h2>
+          <div class="skills">
+            <a href="#" class="skill">
+              <h3>Web Development</h3>
+              <p>Html,css,javascript</p>
+            </a>
+            <a href="#" class="skill">
+              <h3>Data Services</h3>
+              <p>Excel,Data Entry,Cleaning</p>
+            </a>
+            <a href="#" class="skill">
+              <h3>Doc Formatting</h3>
+              <p>CVs,Reports,Transcription</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <span>&copy; 2026 Solorics&middot;Lagos, Nigeria</span>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
   </body>
 </html>
