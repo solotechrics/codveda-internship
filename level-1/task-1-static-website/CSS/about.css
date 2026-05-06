@@ -40,6 +40,7 @@
 .about-bio h1 {
   font-size: 2rem;
   margin-bottom: 1rem;
+  margin-top: 2rem;
 }
 
 .about-bio p {
@@ -58,6 +59,7 @@
   font-size: 1.5rem;
   margin-bottom: 1.5rem;
   letter-spacing: 2px;
+  margin-top: 2rem;
 }
 
 .skill-tags {
@@ -93,6 +95,7 @@
   margin-bottom: 1.5rem;
   letter-spacing: 2px;
   text-align: center;
+  margin-top: 2rem;
 }
 
 .experience-item {

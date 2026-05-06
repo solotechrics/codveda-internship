@@ -131,6 +131,14 @@ header .container {
   gap: 1.5rem;
 }
 
+.hero-icon {
+  font-size: 3rem;
+  color: #1d1d1d;
+  margin-bottom: 1rem;
+  animation: float 3s ease-in-out infinite;
+  margin-top: 4rem;
+}
+
 header span {
   font-weight: 500;
   font-size: 1.7rem;

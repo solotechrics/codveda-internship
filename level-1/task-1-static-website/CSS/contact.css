@@ -1,0 +1,131 @@
+/* Contact Section */
+.contact-section {
+  min-height: 100vh;
+  padding: 8rem 0 4rem 0;
+  background: linear-gradient(135deg, #3e1c00 0%, #6b3a2a 50%, #8b5e3c 100%);
+  position: relative;
+}
+
+.contact-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #faf8f2;
+}
+
+.contact-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  letter-spacing: 2px;
+}
+
+.contact-header p {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.contact-content {
+  display: grid;
+  gap: 2rem;
+}
+
+/* Glassmorphism Cards */
+.contact-info,
+.contact-form {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 16px;
+  padding: 2rem;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+/* Contact Items */
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  margin-bottom: 2rem;
+  color: #faf8f2;
+}
+
+.contact-item i {
+  font-size: 1.5rem;
+  color: #f1f2f3;
+  width: 40px;
+  text-align: center;
+}
+
+.contact-item h3 {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 0.2rem;
+  letter-spacing: 1px;
+}
+
+.contact-item p {
+  font-size: 0.95rem;
+  color: #faf8f2;
+}
+
+/* Form Styles */
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 0.5rem;
+  letter-spacing: 1px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  max-width: 100%;
+  padding: 0.7rem 1rem;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  color: #faf8f2;
+  font-size: 0.9rem;
+  font-family: "Roboto", sans-serif;
+  transition: border 0.3s ease;
+  outline: none;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.submit-btn {
+  width: auto;
+  padding: 0.8rem 2rem;
+  background: #faf8f2;
+  color: #1a1a2e;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  letter-spacing: 1px;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.submit-btn:hover {
+  opacity: 0.85;
+  transform: translateY(-2px);
+}

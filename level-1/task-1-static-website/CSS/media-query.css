@@ -85,6 +85,29 @@
     grid-template-columns: 1fr 1fr;
     margin-bottom: 4rem;
   }
+
+  .about-section .container {
+    padding: 2rem;
+  }
+
+  .about-bio h1 {
+    font-size: 2.5rem;
+  }
+
+  .experience-item {
+    padding-left: 2rem;
+  }
+
+  .contact-header h1 {
+    font-size: 3rem;
+  }
+
+  .contact-content {
+    grid-template-columns: 1fr;
+    align-items: start;
+    max-width: 600px;
+    margin: 0 auto;
+  }
 }
 
 /* Desktop */
@@ -138,5 +161,43 @@
 
   .skills {
     grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .about-top {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 3rem;
+    align-items: center;
+    width: 100%;
+  }
+
+  .about-bio {
+    text-align: left;
+  }
+
+  .profile-photo img {
+    width: 220px;
+    height: 220px;
+  }
+
+  .about-skills h2,
+  .about-experience h2 {
+    text-align: center;
+    margin-top: 6rem;
+  }
+
+   .contact-content {
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .contact-header h1 {
+    font-size: 3.5rem;
+  }
+
+  .contact-section {
+    padding: 8rem 0 6rem 0;
   }
 }
