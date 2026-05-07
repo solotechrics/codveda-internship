@@ -1,0 +1,82 @@
+/* ===== RESET ===== */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== BASE ===== */
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  font-size: 16px;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  font-family: var(--font-primary);
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  line-height: var(--line-height-normal);
+  min-height: 100vh;
+}
+
+/* ===== CONTAINER ===== */
+.container {
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+  padding: 0 var(--spacing-xl);
+  height: 100%;
+}
+
+/* ===== TYPOGRAPHY ===== */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: var(--line-height-tight);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text-primary);
+}
+
+p {
+  color: var(--color-text-secondary);
+  line-height: var(--line-height-normal);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: var(--transition-normal);
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-family: var(--font-primary);
+}
+
+/* ===== SECTION HEADING STYLE ===== */
+.section-tag {
+  color: var(--color-accent);
+  font-size: var(--font-size-sm);
+  letter-spacing: 3px;
+  margin-bottom: var(--spacing-md);
+}
