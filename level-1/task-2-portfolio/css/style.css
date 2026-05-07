@@ -106,3 +106,52 @@
 .nav-drawer ul li a:hover {
   color: var(--color-accent);
 }
+
+/* hero section */
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-top: var(--nav-height);
+}
+
+.hero .container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.hero-tag {
+  color: var(--color-accent);
+  font-size: var(--font-size-sm);
+  letter-spacing: 1.5px;
+  margin-top: 2rem;
+  margin-bottom: -1rem;
+}
+
+.hero-title {
+  font-size: var(--font-size-2xl);
+  line-height: var(--line-height-tight);
+}
+
+.hero-title span {
+  color: var(--color-accent);
+}
+
+.hero-bio {
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-sm);
+  max-width: 400px;
+}
+
+.hero-image img {
+  width: 100%;
+  mix-blend-mode: hard-light;
+  margin-top: -3rem;
+}
