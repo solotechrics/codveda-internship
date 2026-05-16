@@ -262,74 +262,83 @@
     </section>
 
     <section id="contact" class="contact">
-    <div class="container">
+      <div class="container">
         <span class="section-tag">// contact</span>
         <div class="contact-content">
-            <div class="contact-text">
-                <h2>Let's work together</h2>
-                <p>Have a project in mind or need my services? Send me a message!</p>
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <i class="fa-solid fa-envelope"></i>
-                        <span>opeyemisolomon906@gmail.com</span>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fa-solid fa-location-dot"></i>
-                        <span>Lagos, Nigeria</span>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fa-brands fa-github"></i>
-                        <span>github.com/solotechrics</span>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fa-brands fa-linkedin"></i>
-                        <span>linkedin.com/in/solorics</span>
-                    </div>
-                </div>
+          <div class="contact-text">
+            <h2>Let's work together</h2>
+            <p>
+              Have a project in mind or need my services? Send me a message!
+            </p>
+            <div class="contact-info">
+              <div class="contact-item">
+                <i class="fa-solid fa-envelope"></i>
+                <span>opeyemisolomon906@gmail.com</span>
+              </div>
+              <div class="contact-item">
+                <i class="fa-solid fa-location-dot"></i>
+                <span>Lagos, Nigeria</span>
+              </div>
+              <div class="contact-item">
+                <i class="fa-brands fa-github"></i>
+                <span>github.com/solotechrics</span>
+              </div>
+              <div class="contact-item">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>linkedin.com/in/solorics</span>
+              </div>
             </div>
+          </div>
 
-            <div class="contact-form">
-                <div class="form-group">
-                    <input type="text" id="name" placeholder="Your name" />
-                </div>
-                <div class="form-group">
-                    <input type="email" id="email" placeholder="Your email" />
-                </div>
-                <div class="form-group">
-                    <textarea id="message" rows="5" placeholder="Your message"></textarea>
-                </div>
-                <button class="submit-btn">Send Message</button>
+          <div class="contact-form">
+            <div class="form-group">
+              <input type="text" id="name" placeholder="Your name" />
+              <div class="name-error"></div>
             </div>
-
+            <div class="form-group">
+              <input type="email" id="email" placeholder="Your email" />
+              <div class="email-error"></div>
+            </div>
+            <div class="form-group">
+              <textarea
+                id="message"
+                rows="5"
+                placeholder="Your message"
+              ></textarea>
+              <div class="msg-error"></div>
+            </div>
+            <div id="success-msg"></div>
+            <button class="submit-btn">Send Message</button>
+          </div>
         </div>
-    </div>
-</section>
-
-<footer class="footer">
-  <div class="container">
-    <div class="footer-content">
-      <div class="nav-logo">
-        <a href="#">Solo<span>&middot;</span><span>Rics</span></a>
       </div>
+    </section>
 
-      <div class="footer-socials">
-        <a href="https://github.com/solotechrics" target="_blank">
-          <i class="fa-brands fa-github"></i>
-        </a>
-        <a href="#" target="_blank">
-          <i class="fa-brands fa-linkedin"></i>
-        </a>
-        <a href="#" target="_blank">
-          <i class="fa-brands fa-twitter"></i>
-        </a>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="nav-logo">
+            <a href="#">Solo<span>&middot;</span><span>Rics</span></a>
+          </div>
+
+          <div class="footer-socials">
+            <a href="https://github.com/solotechrics" target="_blank">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="#" target="_blank">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="#" target="_blank">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+          </div>
+          <p class="footer-copy">
+            &copy; 2026 Solorics &middot; Lagos, Nigeria
+          </p>
+        </div>
       </div>
-      <p class="footer-copy">
-        &copy; 2026 Solorics &middot; Lagos, Nigeria
-      </p>
-
-    </div>
-  </div>
-</footer>
+    </footer>
+    <script src="./form-validation.js"></script>
     <script src="./script.js"></script>
   </body>
 </html>
