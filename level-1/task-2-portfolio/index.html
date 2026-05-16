@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solorics | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Fira+Mono:wght@400;500;700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/variables.css" />
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/animations.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media-query.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar-inner">
+          <!-- Logo -->
+          <div class="nav-logo">
+            <a href="#">Solo<span>&middot;</span><span>Rics</span></a>
+          </div>
+          <!-- Toggle Switch -->
+          <div class="toggle-switch" id="nav-toggle">
+            <div class="toggle-thumb"></div>
+          </div>
+          <div class="nav-links">
+            <ul>
+              <li><a href="#home">/home</a></li>
+              <li><a href="#projects">/projects</a></li>
+              <li><a href="#skills">/skills</a></li>
+              <li><a href="#about">/about</a></li>
+              <li><a href="#contact">/contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Nav Drawer -->
+    <div class="nav-drawer" id="nav-drawer">
+      <ul>
+        <li><a href="#home">/home</a></li>
+        <li><a href="#projects">/projects</a></li>
+        <li><a href="#skills">/skills</a></li>
+        <li><a href="#about">/about</a></li>
+        <li><a href="#contact">/contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Drawer Overlay -->
+    <div class="drawer-overlay" id="drawer-overlay"></div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <span class="hero-tag">// hello world</span>
+          <h1 class="hero-title">
+            Solorics is a <span>web developer</span> and
+            <span> data professional</span>
+          </h1>
+          <p class="hero-bio">
+            Crafting responsive websites where clean code meets real-world
+            business solutions.
+          </p>
+        </div>
+        <!-- <div class="hero-image">
+          <img src="./images/hero-image-removebg-preview.png" alt="Solorics" />
+        </div> -->
+      </div>
+    </section>
+
+    <!-- Project Section -->
+    <section id="projects" class="projects reveal">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header">
+          <h2>/projects</h2>
+          <a href="#" class="tag"
+            >View all <i class="fa-solid fa-arrow-right"></i
+          ></a>
+        </div>
+        <!-- Projects Grid -->
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-thumbnail">
+              <img
+                src="./images/project-1.png"
+                alt="Personal Brand Website i built"
+              />
+            </div>
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+            <div class="project-name">
+              <h3>Personal Brand Website</h3>
+            </div>
+            <div class="project-description">
+              <p>
+                A responsive multi-page website showcasing freelance services
+              </p>
+            </div>
+            <div class="project-links">
+              <a href="#">Live</a>
+              <a href="https://github.com/solotechrics/codveda-internship"
+                >GitHub</a
+              >
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-thumbnail">
+              <img
+                src="./images/project-2.png"
+                alt="A property Acquisition Ledger i built with A.I"
+              />
+            </div>
+            <div class="project-tags">
+              <span>Firebase</span>
+              <span>jsPDF</span>
+              <span>SheetJS</span>
+            </div>
+            <div class="project-name">
+              <h3>Property Acquisition Ledger</h3>
+            </div>
+            <div class="project-description">
+              <p>
+                A PWA for tracking property acquisition costs with Excel and PDF
+                export
+              </p>
+            </div>
+            <div class="project-links">
+              <a href="#">Live</a>
+              <a href="https://github.com/solotechrics/codveda-internship"
+                >GitHub</a
+              >
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-thumbnail">
+              <img
+                src="./images/project-3.png"
+                alt="A property inspection app with checklist built with A.I"
+              />
+            </div>
+            <div class="project-tags">
+              <span>PWA</span>
+              <span>Firebase</span>
+              <span>Netlify</span>
+            </div>
+            <div class="project-name">
+              <h3>InspectPro</h3>
+            </div>
+            <div class="project-description">
+              <p>
+                A property inspection app with checklist, scoring and report
+                generation
+              </p>
+            </div>
+            <div class="project-links">
+              <a href="#">Live</a>
+              <a href="https://github.com/solotechrics/codveda-internship"
+                >GitHub</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills reveal">
+      <div class="container">
+        <span class="section-tag">// skills</span>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3>Frontend</h3>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+          </div>
+
+          <div class="skill-category">
+            <h3>Tools</h3>
+            <ul>
+              <li>Git & GitHub</li>
+              <li>VS Code</li>
+              <li>Firebase</li>
+            </ul>
+          </div>
+
+          <div class="skill-category">
+            <h3>Data Services</h3>
+            <ul>
+              <li>Excel</li>
+              <li>Data Entry</li>
+              <li>Data Cleaning</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about reveal">
+      <div class="container">
+        <!-- Section tag -->
+        <span class="section-tag">// about-me</span>
+
+        <!-- About content -->
+        <div class="about-content">
+          <!-- Photo -->
+          <div class="about-image">
+            <img src="./images/hero-image.jpg" alt="Solorics" />
+          </div>
+
+          <!-- Text -->
+          <div class="about-text">
+            <h2>Who am I?</h2>
+            <p>
+              I'm Oluwasegun Opeyemi Solomon, a Lagos-based freelance web
+              developer and data professional. I build clean, responsive
+              websites and deliver accurate data solutions for businesses and
+              individuals.
+            </p>
+            <p>
+              When I'm not writing code, I'm managing property operations or
+              helping clients organize their data. I believe in learning by
+              doing — every project teaches me something new.
+            </p>
+            <!-- Fun facts -->
+            <div class="about-facts">
+              <div class="fact">
+                <span class="fact-number">3+</span>
+                <span class="fact-label">Projects Built</span>
+              </div>
+              <div class="fact">
+                <span class="fact-number">2+</span>
+                <span class="fact-label">Years Experience</span>
+              </div>
+              <div class="fact">
+                <span class="fact-number">5+</span>
+                <span class="fact-label">Happy Clients</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact reveal">
+      <div class="container">
+        <span class="section-tag">// contact</span>
+        <div class="contact-content">
+          <div class="contact-text">
+            <h2>Let's work together</h2>
+            <p>
+              Have a project in mind or need my services? Send me a message!
+            </p>
+            <div class="contact-info">
+              <div class="contact-item">
+                <i class="fa-solid fa-envelope"></i>
+                <span>opeyemisolomon906@gmail.com</span>
+              </div>
+              <div class="contact-item">
+                <i class="fa-solid fa-location-dot"></i>
+                <span>Lagos, Nigeria</span>
+              </div>
+              <div class="contact-item">
+                <i class="fa-brands fa-github"></i>
+                <span>github.com/solotechrics</span>
+              </div>
+              <div class="contact-item">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>linkedin.com/in/solorics</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form">
+            <div class="form-group">
+              <input type="text" id="name" placeholder="Your name" />
+              <div class="name-error"></div>
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" placeholder="Your email" />
+              <div class="email-error"></div>
+            </div>
+            <div class="form-group">
+              <textarea
+                id="message"
+                rows="5"
+                placeholder="Your message"
+              ></textarea>
+              <div class="msg-error"></div>
+            </div>
+            <div id="success-msg"></div>
+            <button class="submit-btn">Send Message</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="nav-logo">
+            <a href="#">Solo<span>&middot;</span><span>Rics</span></a>
+          </div>
+
+          <div class="footer-socials">
+            <a href="https://github.com/solotechrics" target="_blank">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="#" target="_blank">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="#" target="_blank">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+          </div>
+          <p class="footer-copy">
+            &copy; 2026 Solorics &middot; Lagos, Nigeria
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="./scroll-animation.js"></script>
+    <script src="./form-validation.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
