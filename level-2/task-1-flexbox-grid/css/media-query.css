@@ -1,0 +1,48 @@
+/* ===== TABLET ===== */
+@media (min-width: 768px) {
+
+  .links-right {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .heading {
+    font-size: var(--font-size-3xl);
+  }
+
+  .posts-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .featured-post {
+    flex-direction: row;
+  }
+
+  .featured-image img {
+    width: 350px;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .footer-inner {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+  }
+}
+
+/* ===== DESKTOP ===== */
+@media (min-width: 1024px) {
+
+  .main-content {
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .posts-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .featured-image img {
+    width: 400px;
+  }
+}
