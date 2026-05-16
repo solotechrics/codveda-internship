@@ -1,8 +1,11 @@
 :root {
   /* ===== COLORS ===== */
-  --color-bg-primary: #0d0d0d;
+  --color-bg-primary: #11120D;
   --color-bg-secondary: #111111;
   --color-bg-card: #161616;
+  --color-olive: #565449;
+  --color-bone: #D8CFBC;
+  --color-floral: #FFFBF4;
 
   --color-accent: #e07b39;
   --color-accent-hover: #c96a2a;
