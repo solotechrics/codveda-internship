@@ -20,7 +20,14 @@ All projects were built from scratch using HTML, CSS, and JavaScript — no fram
 **GitHub:** [github.com/solotechrics](https://github.com/solotechrics)  
 **Email:** opeyemisolomon906@gmail.com
 
----
+## 🔗 Live Demo Links
+
+| Project                | Live Link                                                                                     |
+| ---------------------- | --------------------------------------------------------------------------------------------- |
+| Personal Brand Website | [View Live](https://solotechrics.github.io/codveda-internship/level-1/task-1-static-website/) |
+| Developer Portfolio    | [View Live](https://solotechrics.github.io/codveda-internship/level-1/task-2-portfolio/)      |
+| Blog Layout            | [View Live](https://solotechrics.github.io/codveda-internship/level-2/task-1-flexbox-grid/)   |
+| Todo Application       | [View Live](https://solotechrics.github.io/codveda-internship/level-2/task-2-todo-app/)       |
 
 ## 📁 Project Structure
 
