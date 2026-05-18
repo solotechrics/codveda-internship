@@ -47,13 +47,13 @@ submitBtn.addEventListener("click", function () {
 
     // Check name
     if (nameValue === "") {
-        showError(nameError, "Please enter your email address");
+        showError(nameError, "Please enter your name");
         isValid = false;
     }
 
     // Check email
     if (emailValue === "") {
-        showError(nameError, "Please enter your email address");
+        showError(emailError, "Please enter your email address");
         isValid = false;
     } else if (!isValidEmail(emailValue)) {
         showError(emailError, "Please enter a valid email address");
