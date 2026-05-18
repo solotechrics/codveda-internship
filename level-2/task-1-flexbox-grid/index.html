@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Blog | Solorics</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/variables.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media-query.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">The Blog</div>
+      <div class="links-right">
+        <a href="#home">Home</a>
+        <a href="#categories">Categories</a>
+        <a href="#about">About</a>
+        <a href="#subscribe">Subscribe</a>
+      </div>
+    </nav>
+
+    <header>
+      <div class="hero">
+        <div class="hero-tag">Welcome to my blog</div>
+        <h1 class="heading">Stories, thoughts & insights</h1>
+        <p class="description">
+          A space for web development tips, data insights and freelance life
+          from Lagos.
+        </p>
+        <div class="search-bar">
+          <input type="text" placeholder="Search articles..." />
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+    </header>
+    <main class="main-content">
+      <!-- Blog Posts -->
+      <section class="blog-posts">
+        <!-- Featured Post -->
+        <div class="featured-post">
+          <div class="featured-image">
+            <img
+              src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800"
+              alt="Featured post"
+            />
+          </div>
+          <div class="featured-content">
+            <span class="category-tag">Web Development</span>
+            <h2>Getting Started with CSS Flexbox and Grid</h2>
+            <p>
+              Learn how to build modern, responsive layouts using the most
+              powerful CSS tools available today. From simple alignment to
+              complex grid systems.
+            </p>
+            <div class="post-meta">
+              <span>May 16, 2026</span>
+              <span>5 min read</span>
+              <a href="#">Read More →</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Regular Posts Grid -->
+        <div class="posts-grid">
+          <div class="post-card">
+            <div class="post-image">
+              <img
+                src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400"
+                alt="Post"
+              />
+            </div>
+            <div class="post-content">
+              <span class="category-tag">JavaScript</span>
+              <h3>Understanding DOM Manipulation</h3>
+              <p>
+                A beginner's guide to manipulating the DOM with vanilla
+                JavaScript.
+              </p>
+              <div class="post-meta">
+                <span>May 10, 2026</span>
+                <span>4 min read</span>
+                <a href="#">Read More →</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="post-card">
+            <div class="post-image">
+              <img
+                src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=400"
+                alt="Post"
+              />
+            </div>
+            <div class="post-content">
+              <span class="category-tag">Data</span>
+              <h3>Excel Tips for Data Professionals</h3>
+              <p>
+                Top Excel tricks wey go make your data work faster and cleaner.
+              </p>
+              <div class="post-meta">
+                <span>May 5, 2026</span>
+                <span>3 min read</span>
+                <a href="#">Read More →</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="post-card">
+            <div class="post-image">
+              <img
+                src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400"
+                alt="Post"
+              />
+            </div>
+            <div class="post-content">
+              <span class="category-tag">Freelance</span>
+              <h3>How to Land Your First Freelance Client</h3>
+              <p>
+                Practical steps to get your first paying client as a freelance
+                developer.
+              </p>
+              <div class="post-meta">
+                <span>April 28, 2026</span>
+                <span>6 min read</span>
+                <a href="#">Read More →</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="post-card">
+            <div class="post-image">
+              <img
+                src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=400"
+                alt="Post"
+              />
+            </div>
+            <div class="post-content">
+              <span class="category-tag">Web Development</span>
+              <h3>Building Your First PWA</h3>
+              <p>
+                Step by step guide to building a Progressive Web App from
+                scratch.
+              </p>
+              <div class="post-meta">
+                <span>April 20, 2026</span>
+                <span>7 min read</span>
+                <a href="#">Read More →</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <!-- About Widget -->
+        <div class="sidebar-widget">
+          <h4>About</h4>
+          <p>
+            Hi! I'm Solorics — a Lagos-based web developer sharing tips on
+            coding, data and freelance life.
+          </p>
+        </div>
+
+        <!-- Categories Widget -->
+        <div class="sidebar-widget">
+          <h4>Categories</h4>
+          <ul class="categories-list">
+            <li>
+              <a href="#">Web Development <span>12</span></a>
+            </li>
+            <li>
+              <a href="#">JavaScript <span>8</span></a>
+            </li>
+            <li>
+              <a href="#">Data Services <span>5</span></a>
+            </li>
+            <li>
+              <a href="#">Freelance <span>6</span></a>
+            </li>
+            <li>
+              <a href="#">CSS <span>9</span></a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Popular Posts Widget -->
+        <div class="sidebar-widget">
+          <h4>Popular Posts</h4>
+          <div class="popular-posts">
+            <div class="popular-post">
+              <img
+                src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=100"
+                alt="Popular post"
+              />
+              <div>
+                <p>Getting Started with CSS Flexbox</p>
+                <span>May 16, 2026</span>
+              </div>
+            </div>
+            <div class="popular-post">
+              <img
+                src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=100"
+                alt="Popular post"
+              />
+              <div>
+                <p>Understanding DOM Manipulation</p>
+                <span>May 10, 2026</span>
+              </div>
+            </div>
+            <div class="popular-post">
+              <img
+                src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400"
+                alt="Popular post"
+              />
+              <div>
+                <p>How to Land Your First Client</p>
+                <span>April 28, 2026</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-inner">
+        <div class="footer-logo">The Blog</div>
+        <div class="footer-links">
+          <a href="#">Home</a>
+          <a href="#">Categories</a>
+          <a href="#">About</a>
+          <a href="#">Subscribe</a>
+        </div>
+        <p class="footer-copy">&copy; 2026 Solorics · Lagos, Nigeria</p>
+      </div>
+    </footer>
+  </body>
+</html>
